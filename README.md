@@ -2,6 +2,11 @@
 
 A node-based Heroes of the Storm parser.
 
+## Why this fork?
+
+This repo was forked from the original to use heroprotocol from https://github.com/garyirick/heroprotocol.  That version
+will automatically fall back on the latest version if the current version of the protocol has not yet been published by Blizzard.
+
 ## Setup
 
 ### From npm
@@ -18,7 +23,7 @@ npm install
 
 ## Updating the Parser
 
-`hots-parser` relies on [heroprotocol.js](https://github.com/nydus/heroprotocol) to access the StormReplay files.
+`hots-parser` relies on [heroprotocol.js](https://github.com/garyirick/heroprotocol) to access the StormReplay files.
 These files are pulled directly from the Blizzard [heroprotocol](https://github.com/blizzard/heroprotocol) repository.
 If you're running this on a server, you will need to monitor the Blizzard repository and run `node node_modules/heroprotocol/postinstall.js`
 to keep the parser up to date.
