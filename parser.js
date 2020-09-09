@@ -3,7 +3,7 @@ const log = require('./pino.js');
 const fs = require('fs');
 const path = require('path');
 const ReplayTypes = require(path.join(__dirname, 'constants.js'));
-const heroprotocol = require('heroprotocol-fallback');
+const heroprotocol = require('heroprotocol');
 const XRegExp = require('xregexp');
 const attrs = require('./attr.js');
 
