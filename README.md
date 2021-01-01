@@ -7,6 +7,8 @@ A node-based Heroes of the Storm parser.
 This repo was forked from the original to use heroprotocol from https://github.com/garyirick/heroprotocol.  That version
 will automatically fall back on the latest version if the current version of the protocol has not yet been published by Blizzard.
 
+That change has now been made to the upstream project at https://github.com/ebshimizu/hots-parser, so this fork is obsolete.
+
 ## Setup
 
 ### From npm
